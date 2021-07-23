@@ -1,0 +1,274 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	background:url( "../image/2.1.jpg");
+}
+html {
+	scroll-behavior:smooth;
+}
+h1 {
+	font-family: 'Playfair Display', serif;
+}
+.header {
+	width: 100%;
+/*	background: lightgrey;*/
+	padding: 30px 0;
+	position:absolute;
+	position:fixed;
+	z-index:19;
+}
+.container {
+/*	background: red;*/
+	width: 1200px;
+	margin: 0 auto;
+	z-index: 20;
+}
+.logo {
+/*	background: green;*/
+}
+.logo img:hover{
+	opacity: 0.8;
+}
+.nav {
+	align-items:center;
+}
+.nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items:center;
+	margin: 0 auto;
+	list-style: none;
+ 	height: 100%;
+}
+.nav ul li{
+	margin: 0 24px;
+}
+.nav ul li a {
+	text-decoration: none;
+	text-transform:uppercase;
+	color: white;
+	font-size: 14px;
+}
+.nav ul li a:hover {
+	opacity: 0.8;
+}
+.icon {
+/*	background: aqua;*/
+	font-size:24px;
+	
+}
+.icon a {
+	height: 100%;
+	color: white;
+	align-items: center;
+	display: flex;
+	justify-content:flex-end;
+}
+.banner {
+	width: 100%;
+	height: 100vh;
+	overflow:hidden;
+	position:relative;
+	z-index: -1;
+}
+.banner img {
+	width: 100%;
+	position:relative;
+	z-index:2;
+}
+.text-box {
+	position:absolute;
+	top: 30%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color: white;
+	text-align: center;
+	z-index:2;
+}
+.text-box h1{
+	font-size: 72px;
+	font-family: 'Playfair Display', serif;
+	z-index:3;
+}
+.arrow {
+	font-size: 48px;
+	position:absolute;
+	left: 49%;
+	top: 40%;
+	cursor:pointer;
+	z-index:5
+}
+.arrow a{
+	color: white;
+	z-index: 3;
+}
+.arrow a:hover {
+	color:red;
+	z-index:3;
+}
+.banner-1 {
+	width:100%;
+	height: 100vh;
+/*	background: red;*/
+	position:absolute;
+}
+.banner-1 img {
+	top:0;
+	width: 100%;
+	position:absolute;
+	z-index:1
+}
+.text-box-1 {
+	width:1200px;
+	margin: 0 auto;
+}
+
+.about {
+	width: 1200px;
+	height: 100vh;
+/*	background: grey;*/
+	margin: 0 auto;
+	display: flex;
+	position:relative;
+	
+}
+.text-box-1 {
+/*	background: white;*/
+	padding: 3px;
+	margin: 150px 0;
+	color:white;
+}
+.text-box-1 h1{
+	letter-spacing:6px;
+	word-spacing:10px;
+}
+.text-box-1 p {
+	letter-spacing:2px;
+	line-height: 25px;
+}
+.vd {
+	height: 100vh;
+	margin:0 auto;
+	z-index:1;
+/*	position:absolute;*/
+	
+}
+.about-2 {
+	width: 1200px;
+	margin: 0 auto;
+	height:100vh;
+/*	background: red;*/
+	z-index: 21;
+}
+.banner-2 {
+/*	background: red;*/
+	
+	
+}
+/*
+.hinh{
+	width:1000px;
+	background:black;
+	justify-content:center;
+	display:flex;
+	margin:0 auto;
+	padding:50px;
+}
+*/
+.box-3 {
+	display: flex;
+	margin: 0 auto;
+	justify-content:center;
+}
+.banner-2 h1 {
+	color: white;
+	padding: 150px;
+	text-align: center;
+	justify-content: flex-end;
+	
+}
+
+.box-2{
+	width:200px;
+	height:300px;
+	background:lightgrey;
+	margin:0 30px;
+	position:relative;	
+	overflow:hidden;
+	
+}
+.box-2 img{
+	width: 200px;
+	height:300px;
+	
+}
+.content-3{
+	width:200px;
+	height:300px;
+	padding: 5px;
+	background:rgba(0,0,0,0.69);
+	color:white;
+	position:absolute;
+	top:0;
+	left:0;
+	visibility:hidden;
+	opacity: 0;
+	transition-duration: 2s;
+}
+.boz:hover .content{
+	opacity:1;
+	visibility:visible;
+}
+.about-3 {
+	background: red;
+}
+.box-4 {
+	width: 100%;
+	height: 100vh;
+	background: url(../image/pexels-francesco-ungaro-2325446.jpg);
+}
+.text-box-4 {
+	padding: 200px;
+	text-align: center;
+}
+.text-box-4 img {
+	width: 200px;
+}
+#about-4{
+	width: 850px;
+	height:100%;
+	margin-top: 430px;
+	background:#aed6dc;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	border-radius: 30px;
+}
+.about-4 p{
+	margin: 15px 0 10px;
+}
+.about-4 a{
+	text-decoration: none;
+	padding-bottom: 5px;
+	border-bottom:1px dotted white;
+}
+.foodter{
+	width: 100%;
+	height: 10px;
+	background:black;
+	padding: 30px 0;
+	text-align: center;
+	color: white;
+}
+.foodter a{
+	color: white;
+	text-decoration: none;
+	padding-bottom: 5px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+
